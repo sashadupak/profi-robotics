@@ -265,7 +265,7 @@ def closest_point(self, point, array):
 
 На видео можно заметить, что точки инвариантны к резким дёрганьям — это и есть результат работы фильтра.
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img11.jpg" width="50%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img11.jpg" width="35%"/>
 
 *АЧХ фильтра 1-го и 2-го порядка*
 
@@ -280,7 +280,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 ![Вид с дрона: зелёная и красная точки на повороте](image26.png)
 *Синяя линия медиальной оси; **🔴 красная точка** — ближайшая к дрону; **🟢 зелёная точка** — следующая в направлении движения*
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img12.jpg" width="50%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img12.jpg" width="20%"/>
 
 *Векторы скорости v₁…v₆ касательны к траектории*
 
@@ -288,7 +288,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 ## В симуляторе хорошо, а в реальности лучше
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img13.jpg" width="50%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img13.jpg" width="35%"/>
 
 *Блок-схема навигационной системы*
 
