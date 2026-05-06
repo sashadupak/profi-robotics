@@ -263,8 +263,6 @@ def closest_point(self, point, array):
 
 Используется обычный фильтр низких частот первого порядка. На слайде продемонстрирован переход от передаточной функции в образе Лапласа к программной реализации для дискретной системы.
 
-На видео можно заметить, что точки инвариантны к резким дёрганьям — это и есть результат работы фильтра.
-
 <img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img11.jpg" width="35%"/>
 
 *АЧХ фильтра 1-го и 2-го порядка*
@@ -277,15 +275,17 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 ## Определение направления движения
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Vibration_cropped.gif" width="100%"/>
-
-*Вид с дрона*
-
 <img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img12.jpg" width="20%"/>
 
 *Векторы скорости v₁…v₆ касательны к траектории*
 
 **Красная точка** — это точка на траектории ближайшая к дрону, а **зелёная** — это следующая на определенном расстоянии за ней. Она выбирается так чтобы все время быть по одну и ту же сторону от красной — в направлении движения дрона.
+
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Vibration_cropped.gif" width="35%"/>
+
+*Вид с дрона*
+
+На видео можно заметить, что точки инвариантны к резким дёрганьям — это и есть результат работы фильтра.
 
 ## В симуляторе хорошо, а в реальности лучше
 
@@ -303,6 +303,14 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 - Kalman filter
 - Madgwick filter
 
-**Александр Дупак**
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img14.jpg" width="30%"/>
+
+*Испытание алгоритма движения по траектории для дрона DJI Tello на специальном полигоне*
+
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img15.jpg" width="30%"/>
+
+*Награждение в Университете Иннополис. Колюбин Сергей Алексеевич — д. т. н., профессор факультета систем управления и робототехники*
+
+**Автор решения: Александр Дупак**
 sashadupak@mail.ru
 Telegram: t.me/sashadupak
