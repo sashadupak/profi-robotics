@@ -288,7 +288,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 ## В симуляторе хорошо, а в реальности лучше
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img13.jpg" width="35%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img13.jpg" width="50%"/>
 
 *Блок-схема навигационной системы*
 
