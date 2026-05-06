@@ -237,9 +237,9 @@ _, contours, h = cv2.findContours(skeleton, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_
 
 После того как были найдены точки, лежащие на линии, вычисляется **ближайшая** из них. Это делается довольно просто: проходом по циклу и вычислением расстояния до каждой из них.
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img10.jpg" width="15%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img10.jpg" width="12%"/>
 
-*касательная к дуге траектории*
+*Касательная к дуге траектории*
 
 ### Код
 
@@ -277,8 +277,9 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 ## Определение направления движения
 
-![Вид с дрона: зелёная и красная точки на повороте](image26.png)
-*Синяя линия медиальной оси; **🔴 красная точка** — ближайшая к дрону; **🟢 зелёная точка** — следующая в направлении движения*
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Vibration_cropped.gif" width="100%"/>
+
+*Вид с дрона*
 
 <img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img12.jpg" width="20%"/>
 
