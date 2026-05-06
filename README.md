@@ -289,10 +289,6 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 ## В симуляторе хорошо, а в реальности лучше
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img13.jpg" width="40%"/>
-
-*Блок-схема навигационной системы*
-
 **Обработка информации с датчиков:**
 - GPS
 - Sonar
@@ -302,6 +298,12 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 **«Оценка» состояния:**
 - Kalman filter
 - Madgwick filter
+
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img13.jpg" width="40%"/>
+
+*Блок-схема навигационной системы*
+
+## Фотографии. Университет Иннополис
 
 <img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img14.jpg" width="60%"/>
 
