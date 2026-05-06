@@ -162,7 +162,7 @@ $$\theta^* = \frac{U_5}{U_1}, \quad \psi^* = -\frac{U_6}{U_1}, \quad |\theta_|, 
 
 | PID-регулятор | Робастный регулятор |
 |---|---|
-| <img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/PID_cropped.gif" width="30%"/> | <img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Robast_cropped.gif" width="30%"/> |
+| <img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/PID_cropped.gif" width="100%"/> | <img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Robast_cropped.gif" width="100%"/> |
 | Заносы на поворотах, точное следование на прямых | Срезание углов на поворотах, бо́льшее отставание на прямых |
 
 **🎬 Видео сравнения:**
