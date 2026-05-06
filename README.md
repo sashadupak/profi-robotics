@@ -154,7 +154,7 @@ $$\dot{\xi}_i = \sigma_i(-\xi_i + e_i)$$
 
 где $e_i = \{z^* - z,\; \theta^* - \theta,\; \psi^* - \psi,\; \phi^* - \phi,\; \bar{x},\; \bar{y}\}$ — сигналы ошибок, $\mu_i, \sigma_i$ — настраиваемые коэффициенты.
 
-$$\theta^* = \frac{U_5}{U_1}, \quad \psi^* = -\frac{U_6}{U_1}, \quad |\theta^*|, |\psi^*| \leq \frac{\pi}{6}$$
+$$\theta^* = \frac{U_5}{U_1}, \quad \psi^* = -\frac{U_6}{U_1}, \quad |\theta_|, |\psi_| \leq \frac{\pi}{6}$$
 
 ## Сравнение: PID vs Робастный регулятор
 
