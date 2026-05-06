@@ -71,7 +71,7 @@ $$U(n) = K_p E(n) + K_p K_{ip} T \sum_{k=0}^{n} E(k) + \frac{K_p K_{dp}}{T}(E(n)
 
 Результатом расчета является матрица **K** оптимальных обратных связей по переменным состояния. Стоит отметить, что этот регулятор работает только для линейных или линеаризованных систем, и предполагает полную идентификацию модели, что в нашем случае сделать проблематично.
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img4.jpg" width="50%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img4.jpg" width="30%"/>
 
 *Блок-схема LQR*
 
@@ -162,7 +162,7 @@ $$\theta^* = \frac{U_5}{U_1}, \quad \psi^* = -\frac{U_6}{U_1}, \quad |\theta_|, 
 
 | PID-регулятор | Робастный регулятор |
 |---|---|
-| ![PID trajectory](image13.png) | ![Robust trajectory](image14.png) |
+| <img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/PID_cropped.gif" width="30%"/> | <img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Robast_cropped.gif" width="30%"/> |
 | Заносы на поворотах, точное следование на прямых | Срезание углов на поворотах, бо́льшее отставание на прямых |
 
 **🎬 Видео сравнения:**
