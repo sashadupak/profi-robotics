@@ -307,7 +307,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 *Испытание алгоритма движения по траектории для дрона DJI Tello на специальном полигоне*
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img15.jpg" width="30%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img15.JPG" width="30%"/>
 
 *Награждение в Университете Иннополис. Колюбин Сергей Алексеевич — д. т. н., профессор факультета систем управления и робототехники*
 
