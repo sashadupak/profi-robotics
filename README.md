@@ -237,7 +237,7 @@ _, contours, h = cv2.findContours(skeleton, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_
 
 После того как были найдены точки, лежащие на линии, вычисляется **ближайшая** из них. Это делается довольно просто: проходом по циклу и вычислением расстояния до каждой из них.
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img10.jpg" width="50%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img10.jpg" width="15%"/>
 
 *касательная к дуге траектории*
 
