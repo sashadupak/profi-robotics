@@ -22,8 +22,9 @@
 
 ## Анализ методов и подходов
 
-![Структурная схема системы управления с обратной связью](https://github.com/sashadupak/profi-robotics/blob/main/Images/img2.jpg)
-*Классическая схема: r → Controller → u → Plant → y; обратная связь через Sensors (y_m)*
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img2.jpg" width="50%"/>
+
+*Структурная схема системы управления с обратной связью*
 
 **Рассматриваемые методы:**
 
@@ -43,11 +44,13 @@
 
 ## PID-регулятор
 
-![Simulink: схема PID-регулятора](https://github.com/sashadupak/profi-robotics/blob/main/Images/img3.jpg)
-*Simulink-модель ПИД-подсистемы: вход e, коэффициенты 2.5 / 0.01 / 0.5, интегратор 1/s, блок Δu/Δt, выход u*
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img3.jpg" width="50%"/>
 
-![Страница Википедии — ПИД-регулятор с формулами](https://github.com/sashadupak/profi-robotics/blob/main/Images/img4.jpg)
-*Формулы ПИД и блок-схема управления из Википедии*
+*Simulink: схема PID-регулятора*
+
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img4.jpg" width="50%"/>
+
+*ПИД-регулятор, блок-схема управления*
 
 Начнем с ПИД-регулятора. Основной плюс — это **простота реализации**, но обратной стороной является **ручная подстройка коэффициентов**. Есть некоторые методы для их расчета: с помощью полинома Ньютона или Баттерворта или по методу Зиглера-Николаса, но на практике подбор коэффициентов работает лучше, что в некоторых случаях просто недопустимо.
 
@@ -72,11 +75,13 @@ $$U(n) = K_p E(n) + K_p K_{ip} T \sum_{k=0}^{n} E(k) + \frac{K_p K_{dp}}{T}(E(n)
 
 Результатом расчета является матрица **K** оптимальных обратных связей по переменным состояния. Стоит отметить, что этот регулятор работает только для линейных или линеаризованных систем, и предполагает полную идентификацию модели, что в нашем случае сделать проблематично.
 
-![LQR Block Diagram](https://github.com/sashadupak/profi-robotics/blob/main/Images/img6.jpg)
-*Блок-схема LQR: r → ⊗ → Plant (ẋ=Ax+Bu, y=Cx+Du) → y; обратная связь через –K*
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img6.jpg" width="50%"/>
 
-![LQR — математический вывод (Википедия)](image6.png)(https://github.com/sashadupak/profi-robotics/blob/main/Images/img5.jpg)
-*функционал качества J, уравнение Риккати*
+*Блок-схема LQR*
+
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img5.jpg" width="50%"/>
+
+*LQR — математический вывод. функционал качества J, уравнение Риккати*
 
 **Плюсы:**
 - Оптимальное управление
