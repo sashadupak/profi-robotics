@@ -277,7 +277,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 ## Определение направления движения
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Vibration_cropped.gif" width="100%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/gif/Vibration_cropped.gif" width="35%"/>
 
 *Вид с дрона*
 
