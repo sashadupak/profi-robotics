@@ -303,6 +303,14 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 - Kalman filter
 - Madgwick filter
 
-**Александр Дупак**
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img14.jpg" width="30%"/>
+
+*Испытание алгоритма движения по траектории для дрона DJI Tello на специальном полигоне*
+
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/img15.jpg" width="30%"/>
+
+*Награждение в Университете Иннополис. Колюбин Сергей Алексеевич — д. т. н., профессор факультета систем управления и робототехники*
+
+**Автор решения: Александр Дупак**
 sashadupak@mail.ru
 Telegram: t.me/sashadupak
