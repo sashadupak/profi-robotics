@@ -325,3 +325,4 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 **Автор решения: Александр Дупак**
 sashadupak@mail.ru
 Telegram: t.me/sashadupak
+Пишите по любым вопросам, буду рад знакомству и пообщаться на интересные темы. 
