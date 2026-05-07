@@ -292,7 +292,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 Для тестов этого и других алгоритмов используем дрон DJI Tello со встроеной оптической навигацией, а также камерой 1080p для которой было прикреплено небольшое зеркало чтобы направить обзор ровно вниз.
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/2021-05-07.JPG" width="40%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/2021-05-07.jpg" width="40%"/>
 
 *Фото дрона с закрепленным зеркалом*
 
@@ -312,7 +312,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 Ниже можно увидеть логирование данных о положении дрона при движении по траектории "восьмерка".
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/2025-09-17.JPG" width="40%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/2025-09-17.jpg" width="40%"/>
 
 *График, постороенный по логированным данным по координатам дрона*
 
@@ -326,7 +326,7 @@ $$\boxed{y(t_k) = (1-\alpha)\,y(t_{k-1}) + \alpha\,u(t_k)}, \qquad \alpha = \fra
 
 *Награждение в Университете Иннополис. Колюбин Сергей Алексеевич — д. т. н., профессор факультета систем управления и робототехники*
 
-<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/2020-04-01.JPG" width="60%"/>
+<img src="https://github.com/sashadupak/profi-robotics/blob/main/Images/2020-04-01.jpg" width="60%"/>
 
 *Фото команды от ИТМО на Олимпиаде НТИ по робототехнике в Иннополисе, 2020*
 
